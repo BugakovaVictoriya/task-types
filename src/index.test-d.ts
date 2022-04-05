@@ -35,7 +35,7 @@ expectType<string>(
         company: 'Тензор',
     }),
 );
-/*expectError(
+expectError(
     personToString({
         age: 18,
         gender: 'male',
@@ -52,4 +52,4 @@ expectError(
         company: 'Тензор',
         extraField: '1',
     }),
-);*/
+);
